@@ -1,0 +1,19 @@
+{
+  "user_profile": {
+    "level": "Integer",
+    "xp": "Integer",
+    "rank": "String",
+    "achievements": "Array"
+  },
+  "simulation_logs": {
+    "timestamp": "DateTime",
+    "sequence": "Array",
+    "hit_rate": "Float",
+    "algorithm": "String"
+  },
+  "theory_content": {
+    "id": "String",
+    "title": "String",
+    "body": "Markdown"
+  }
+}
