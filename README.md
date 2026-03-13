@@ -40,3 +40,7 @@
 - **Persistance:** Данные пользователя сохраняются в `LocalStorage` браузера.
 - **Static Data:** Все квесты и обучающие модули подгружаются из `data/initial_state.json`.
 - **Scaling:** Архитектура спроектирована по принципу **Data/Logic Separation**, что позволяет в будущем легко мигрировать на **Firebase** или **Supabase**.
+
+
+<img width="1380" height="803" alt="image" src="https://github.com/user-attachments/assets/8be60100-0259-4a35-9164-78e2526f156f" />
+
