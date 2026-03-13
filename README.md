@@ -32,3 +32,11 @@
 1. Склонируйте репозиторий: `git clone https://github.com/rakh995/archrpg-.git`
 2. Перейдите в папку: `cd archrpg-`
 3. Откройте `index.html` или запустите через среду AI Studio.
+
+
+
+## 💾 Архитектура данных
+В текущей версии MVP (Minimum Viable Product) приложение использует **File-based Database** на основе JSON-структур. 
+- **Persistance:** Данные пользователя сохраняются в `LocalStorage` браузера.
+- **Static Data:** Все квесты и обучающие модули подгружаются из `data/initial_state.json`.
+- **Scaling:** Архитектура спроектирована по принципу **Data/Logic Separation**, что позволяет в будущем легко мигрировать на **Firebase** или **Supabase**.
