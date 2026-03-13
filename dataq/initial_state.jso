@@ -1,0 +1,10 @@
+{
+  "quests": [
+    { "id": "q1", "name": "First Boot", "required_xp": 0, "status": "locked" },
+    { "id": "q2", "name": "LRU Specialist", "required_xp": 100, "status": "locked" }
+  ],
+  "theory_blocks": [
+    { "id": "t1", "title": "Memory Hierarchy", "unlocked": true },
+    { "id": "t2", "title": "Spatial Locality", "unlocked": false }
+  ]
+}
