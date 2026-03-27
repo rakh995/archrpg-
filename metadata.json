@@ -1,0 +1,5 @@
+{
+  "name": "ArchRPG: Cache Simulator",
+  "description": "An educational RPG-style computer architecture simulator for learning CPU cache behavior and LRU algorithms.",
+  "requestFramePermissions": []
+}
